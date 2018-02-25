@@ -36,7 +36,7 @@
         global $deck, $names, $players, $score;
         $player_cards = array();
         for ($i = 0; $i < count($players); $i++) {
-            //echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pokemon/" . $names[$players[$i]] . ".png'>";
+            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pics/" . $names[$players[$i]] . ".jpg'>";
             
             $score[$i] = 0;
             
