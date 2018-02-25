@@ -1,43 +1,9 @@
 <?php
     $names = array(
-        "Bulbasaur",
-        "Ivysaur",
-        "Venusaur",
-        "Charmander",
-        "Charmeleon",
-        "Charizard",
-        "Squirtle",
-        "Wartortle",
-        "Blastoise",
-        "Caterpie",
-        "Metapod",
-        "Butterfree",
-        "Weedle",
-        "Kakuna",
-        "Beedrill",
-        "Pidgey",
-        "Pidgeotto",
-        "Pidgeot",
-        "Rattata",
-        "Raticate",
-        "Spearow",
-        "Fearow",
-        "Ekans",
-        "Arbok",
-        "Pikachu",
-        "Raichu",
-        "Sandshrew",
-        "Sandslash",
-        "Nidorina",
-        "Nidoqueen",
-        "Nidoran_male",
-        "Nidoran_female",
-        "Nidorino",
-        "Nidoking",
-        "Clefairy",
-        "Clefable",
-        "Vulpix",
-        "Ninetales");
+        "Plamen",
+        "Jose",
+        "Jason",
+        "Alex");
         
     $players = array();
     $score = array();
@@ -70,7 +36,7 @@
         global $deck, $names, $players, $score;
         $player_cards = array();
         for ($i = 0; $i < count($players); $i++) {
-            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pokemon/" . $names[$players[$i]] . ".png'>";
+            //echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pokemon/" . $names[$players[$i]] . ".png'>";
             
             $score[$i] = 0;
             
