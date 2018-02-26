@@ -5,7 +5,7 @@
     </head>
     <body>
        <div>
-        <a href="/Silverjack"> SilverJack</a>
+        <a href="/Silverjack/lab3.php"> SilverJack</a>
        
         <br/>
         
