@@ -1,4 +1,6 @@
 <?php
+
+// jose
     $names = array(
         "Plamen",
         "Jose",
@@ -8,13 +10,14 @@
     $players = array();
     $score = array();
     $cards = array();
+  
         
     function getPlayers($numberOfPlayers){
         global $names, $players;
         
         $players = array_rand($names, $numberOfPlayers);
     }
-    
+    // plamen
     function generateDeck()
     {
         $card = array();
@@ -31,12 +34,12 @@
     
     global $deck;
     $deck = generateDeck();
-    
+    // plamen
     function getHand() {
         global $deck, $names, $players, $score;
         $player_cards = array();
         for ($i = 0; $i < count($players); $i++) {
-            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pics/" . $names[$players[$i]] . ".jpg'>";
+            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pics/" . $players[$i] . ".jpg' style=width:50px;height:50px/>";
             
             $score[$i] = 0;
             
@@ -91,7 +94,7 @@
         }
             return $score;
     }
-    
+    // jose
  function displayWinner()
     {
         global $names,$players,$score, $winnings,$topscore;
