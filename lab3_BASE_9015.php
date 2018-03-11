@@ -1,10 +1,4 @@
 <?php
-<<<<<<< HEAD
-    // Jose 
-=======
-
-// jose
->>>>>>> 05ed1b74b6b8a851db5d4486fb9b14aa0549b24a
     $names = array(
         "Plamen",
         "Jose",
@@ -14,19 +8,13 @@
     $players = array();
     $score = array();
     $cards = array();
-  
         
     function getPlayers($numberOfPlayers){
         global $names, $players;
         
         $players = array_rand($names, $numberOfPlayers);
     }
-<<<<<<< HEAD
     
-    // Plamen
-=======
-    // plamen
->>>>>>> 05ed1b74b6b8a851db5d4486fb9b14aa0549b24a
     function generateDeck()
     {
         $card = array();
@@ -43,17 +31,12 @@
     
     global $deck;
     $deck = generateDeck();
-<<<<<<< HEAD
     
-    // Jose
-=======
-    // plamen
->>>>>>> 05ed1b74b6b8a851db5d4486fb9b14aa0549b24a
     function getHand() {
         global $deck, $names, $players, $score;
         $player_cards = array();
         for ($i = 0; $i < count($players); $i++) {
-            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pics/" . $players[$i] . ".jpg' style=width:50px;height:50px/>";
+            echo  "<h2>" . $names[$players[$i]] . "<h2/>", "<img src='img/pics/" . $names[$players[$i]] . ".jpg'>";
             
             $score[$i] = 0;
             
@@ -108,12 +91,7 @@
         }
             return $score;
     }
-<<<<<<< HEAD
     
-    // Plamen
-=======
-    // jose
->>>>>>> 05ed1b74b6b8a851db5d4486fb9b14aa0549b24a
  function displayWinner()
     {
         global $names,$players,$score, $winnings,$topscore;
