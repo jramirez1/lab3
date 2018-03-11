@@ -1,4 +1,5 @@
 <?php
+    // Jose 
     $names = array(
         "Plamen",
         "Jose",
@@ -15,6 +16,7 @@
         $players = array_rand($names, $numberOfPlayers);
     }
     
+    // Plamen
     function generateDeck()
     {
         $card = array();
@@ -32,6 +34,7 @@
     global $deck;
     $deck = generateDeck();
     
+    // Jose
     function getHand() {
         global $deck, $names, $players, $score;
         $player_cards = array();
@@ -92,6 +95,7 @@
             return $score;
     }
     
+    // Plamen
  function displayWinner()
     {
         global $names,$players,$score, $winnings,$topscore;
